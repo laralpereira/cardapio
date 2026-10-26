@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Gravitas+One&family=Pompiere&display=swap');
+
+@font-face {
+    font-family: 'Sweet Cat Ever';
+    src: url(../fonts/Sweetest\ Cat\ Ever.ttf);
+}
+
+body{
+    background-color: rgb(104, 149, 188);
+    text-align: center;
+    margin: 0;
+     font-family: "Pompiere", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(47, 33, 17);
+  font-size: 15px;
+}
+
+/*topo*/
+.topo{
+    background-color: rgb(128, 162, 192);
+    color: rgb(10, 38, 62)
+    padding:20px
+}
+
+.topo img{
+    width: 300px;
+    margin-top: -20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.topo img:hover{
+    transform: scale(1.10);
+}
+
+/*seções*/
+.servicos, .pratos, .cardapio{
+    background-color: rgb(232, 215, 182);
+    width: 55%;
+    margin:20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 3);
+    transition: 0.3s;
+}
+
+.servicos:hover{
+    transform: scale(1.02);
+}
+
+.pratos:hover{
+    transform: scale(1.02);
+}
+
+.cardapio:hover{
+    transform: scale(1.02);
+}
+
+/*titulos*/
+h2{
+    color: rgb(139, 146, 194);
+    font-family: 'Sweet Cat Ever';
+    font-size: 30px
+}
+
+/*listas*/
+ul, ol{
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    list-style-type:circle
+}
+
+li{
+    margin: 15px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+li:hover{
+    transform:scale(1.05);
+
+}
+
+/*tabela*/
+table{
+    width: 80%;
+    margin:auto;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(160, 193, 223);
+}
+
+th, td{
+    border: 2px solid rgb(125, 129, 194);
+    padding:20px;
+}
+
+tr:hover{
+    background-color: antiquewhite;
+}
+
+footer{
+    background-color: rgb(144, 175, 201);
+    color: rgb(74, 66, 53);
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.info{
+    text-align: left;
+}
